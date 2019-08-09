@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="v16_provider" />
+        <module name="search_service" />
+        <module name="product_api" />
+        <module name="search_api" />
+        <module name="v16_consumer" />
+        <module name="search_web" />
+        <module name="background_web" />
+        <module name="index_web" />
+        <module name="base_common" />
+        <module name="mapper_common" />
+        <module name="item_web" />
+        <module name="product_service" />
+        <module name="entity_common" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="background_web" options="-parameters" />
+      <module name="index_web" options="-parameters" />
+      <module name="item_web" options="-parameters" />
+      <module name="product_service" options="-parameters" />
+      <module name="search_service" options="-parameters" />
+      <module name="search_web" options="-parameters" />
+    </option>
+  </component>
+</project>

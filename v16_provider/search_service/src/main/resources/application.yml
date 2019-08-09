@@ -1,0 +1,28 @@
+server:
+  port: 8881
+
+spring:
+  profiles:
+    active: search_service
+  datasource:
+    url: jdbc:mysql://47.102.213.220:3306/v16?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: jiang,111
+    driver-class-name: com.mysql.jdbc.Driver
+  provider:
+    timeout: 1200000
+  data:
+    solr:
+      host: http://47.102.213.220:8083/solr/
+dubbo:
+  application:
+    name: search_service
+  registry:
+    protocol: zookeeper
+    address: 47.102.213.220:2181
+  protocol:
+    port: 28812
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true

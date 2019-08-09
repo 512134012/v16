@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/v16_provider/product_service/pom.xml" />
+        <option value="$PROJECT_DIR$/v16_consumer/background_web/pom.xml" />
+        <option value="$PROJECT_DIR$/v16_consumer/index_web/pom.xml" />
+        <option value="$PROJECT_DIR$/v16_provider/search_service/pom.xml" />
+        <option value="$PROJECT_DIR$/v16_consumer/search_web/pom.xml" />
+        <option value="$PROJECT_DIR$/v16_consumer/item_web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Pages Navigation Model</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Pages Navigation Model</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

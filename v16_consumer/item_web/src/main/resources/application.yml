@@ -1,0 +1,15 @@
+server:
+  port: 9993
+dubbo:
+  application:
+    name: item_web
+  registry:
+    protocol: zookeeper
+    address: 47.102.213.220:2181
+  provider:
+    timeout: 1200000
+
+spring:
+  thymeleaf:
+    cache: false
+

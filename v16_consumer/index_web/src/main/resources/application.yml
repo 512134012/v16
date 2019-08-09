@@ -1,0 +1,14 @@
+server:
+  port: 9991
+dubbo:
+  application:
+    name: index_product
+  registry:
+    protocol: zookeeper
+    address: 47.102.213.220:2181
+  provider:
+    timeout: 1200000
+
+spring:
+  thymeleaf:
+    cache: false

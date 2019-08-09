@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/v16_consumer/background_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16_consumer/index_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16_consumer/item_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16_consumer/search_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16_provider/product_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16_provider/search_service" charset="UTF-8" />
+  </component>
+</project>
